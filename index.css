@@ -1,0 +1,236 @@
+body {
+  transition: background 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #F9EFE3;
+  color: #6E1700;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to bottom, #B6D7F4, #F9EFE3);
+  color: #6E1700;
+}
+
+.hero-img {
+  width: 300px; 
+  height: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+
+.card {
+  background-color: #fff;
+  color: #6E1700;
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.navbar {
+  background-color: #B6D7F4 !important; 
+}
+
+
+.navbar-brand {
+  color: #EE7223 !important; 
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #6E1700 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #EE7223 !important;
+}
+
+
+.hero h1 {
+  color: #EE7223; 
+}
+
+.hero p {
+  color: #715447;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #B6D7F4 !important;
+  color: #EE7223 !important;
+}
+
+footer .footer-text {
+  color: #6E1700; 
+  font-weight: 500;
+}
+
+/* Schedule */
+#schedule {
+  text-align: center;
+}
+
+#schedule h2 {
+  color: #6E1700;
+  margin-bottom: 2rem;
+}
+
+#schedule .card {
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#schedule .card-body {
+  padding: 1.5rem;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+#schedule .col-md-3:nth-child(1) .card-body { background-color: #ECD8C0; } 
+#schedule .col-md-3:nth-child(2) .card-body { background-color: #ECD8C0; } 
+#schedule .col-md-3:nth-child(3) .card-body { background-color: #ECD8C0; } 
+#schedule .col-md-3:nth-child(4) .card-body { background-color: #ECD8C0; } 
+#schedule .col-md-3:nth-child(5) .card-body { background-color: #ECD8C0; }
+#schedule .col-md-3:nth-child(6) .card-body { background-color: #ECD8C0; }
+#schedule .col-md-3:nth-child(7) .card-body { background-color: #ECD8C0; }   
+
+#schedule .card:hover {
+  transform: translateY(-5px);
+}
+
+
+
+/* DARK MODE */
+body.dark {
+  background-color: #441100;
+  color: #E6BD9E;
+}
+
+/* Navbar */
+body.dark .navbar {
+  background-color: #6E3208 !important;
+}
+
+body.dark .navbar-brand {
+  color: #A77510 !important;
+}
+
+body.dark .nav-link {
+  color: #E6BD9E !important;
+}
+
+body.dark .nav-link:hover {
+  color: #A77510 !important;
+}
+
+/* Hero */
+body.dark .hero {
+  background: linear-gradient(to bottom, #441100, #6E3208);
+  color: #E6BD9E;
+}
+
+body.dark .hero h1 {
+  color: #A77510;
+}
+
+body.dark .hero p {
+  color: #E6BD9E;
+}
+
+/* Card */
+body.dark .card {
+  background-color: #6E3208;
+  color: #E6BD9E;
+  border: none;
+}
+
+body.dark .card:hover {
+  transform: scale(1.05);
+}
+
+/* Elements */
+body.dark #elements {
+  background-color: #6E3208 !important;
+  color: #E6BD9E;
+}
+
+body.dark #elements h5 {
+  color: #A77510;
+}
+
+/* Gallery */
+body.dark #gallery {
+  background-color: #441100;
+}
+
+body.dark #gallery img {
+  filter: brightness(0.8);
+}
+
+/* Footer */
+body.dark footer {
+  background-color: #6E3208 !important;
+  color: #E6BD9E !important;
+  font-weight: bold;
+}
+
+body.dark footer a {
+  color: #A77510;
+}
+
+body.dark footer a:hover {
+  color: #A46A44;
+}
+
+/* DARK MODE schedule */
+body.dark #schedule {
+  background-color: #441100;
+}
+
+
+body.dark #schedule h2 {
+  color: #E6BD9E;
+}
+
+body.dark #schedule .col-md-3:nth-child(1) .card-body { background-color: #591509; } 
+body.dark #schedule .col-md-3:nth-child(2) .card-body { background-color: #591509; } 
+body.dark #schedule .col-md-3:nth-child(3) .card-body { background-color: #591509; } 
+body.dark #schedule .col-md-3:nth-child(4) .card-body { background-color: #591509; } 
+body.dark #schedule .col-md-3:nth-child(5) .card-body { background-color: #591509; } 
+body.dark #schedule .col-md-3:nth-child(6) .card-body { background-color: #591509; } 
+body.dark #schedule .col-md-3:nth-child(7) .card-body { background-color: #591509; } 
+
+body.dark #schedule .card-body {
+  background-color: #6E3208;
+  color: #A77510;
+  border-radius: 15px;
+}
+
+
+#profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top; 
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
