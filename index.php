@@ -44,7 +44,7 @@ include "koneksi.php";
     <div>
       <h1 class="fw-bold">Avatar: The Last Airbender</h1>
       <p>Master of all four elements — Air, Water, Earth, and Fire</p>
-      <img src="MAIN CAR.jpeg" alt="Aang" class="hero-img" /> 
+      <img src="img/MAIN CAR.jpeg" alt="Aang" class="hero-img" /> 
     </div>
   </section>
 
@@ -54,7 +54,7 @@ include "koneksi.php";
       <div class="row text-center">
         <div class="col-md-3 mb-4">
           <div class="card">
-            <img src="aang.jpeg" class="card-img-top" alt="Aang">
+            <img src="img/aang.jpeg" class="card-img-top" alt="Aang">
             <div class="card-body">
               <h5 class="card-title">Aang</h5>
               <p class="card-text">The last Airbender and the Avatar destined to bring balance.</p>
@@ -63,7 +63,7 @@ include "koneksi.php";
       </div>
       <div class="col-md-3 mb-4">
         <div class="card">
-          <img src="katara.jpeg" class="card-img-top" alt="Katara">
+          <img src="img/katara.jpeg" class="card-img-top" alt="Katara">
           <div class="card-body">
             <h5 class="card-title">Katara</h5>
             <p class="card-text">A kind-hearted Waterbender from the Southern Water Tribe.</p>
@@ -72,7 +72,7 @@ include "koneksi.php";
       </div>
       <div class="col-md-3 mb-4">
         <div class="card">
-          <img src="toph.jpeg"card-img-top alt="Toph">
+          <img src="img/toph.jpeg"card-img-top alt="Toph">
           <div class="card-body">
             <h5 class="card-title">Toph</h5>
             <p class="card-text">Blind Earthbender with unmatched power and precision.</p>
@@ -81,7 +81,7 @@ include "koneksi.php";
       </div>
       <div class="col-md-3 mb-4">
         <div class="card">
-          <img src="sokka.jpg" class="card-img-top" alt="Zuko">
+          <img src="img/sokka.jpg" class="card-img-top" alt="Zuko">
           <div class="card-body">
             <h5 class="card-title">Sokka</h5>
             <p class="card-text">A brave warrior from the Southern Water Tribe who relies on wit and strategy.</p>
@@ -240,7 +240,7 @@ include "koneksi.php";
     <div class="card mx-auto shadow-sm profile-card">
       <div class="row g-0 align-items-center">
         <div class="col-md-4 text-center p-3">
-          <img src="PAS FOTO - MUHAMMAD MUSTOFA - JAWA TENGAH.JPG" alt="Foto Mahasiswa" class="img-fluid rounded-circle"
+          <img src="img/PAS FOTO - MUHAMMAD MUSTOFA - JAWA TENGAH.JPG" alt="Foto Mahasiswa" class="img-fluid rounded-circle"
                style="width:150px; height:150px; object-fit:cover;">
         </div>
 
