@@ -137,9 +137,9 @@ include "koneksi.php";
     <div class="container text-center">
       <h2 class="fw-bold mb-4">Gallery</h2>
       <div class="row g-3">
-        <div class="col-md-4"><img src="aang gaang.jpg" class="img-fluid rounded"></div>
-        <div class="col-md-4"><img src="all team2.jpg" class="img-fluid rounded"></div> 
-        <div class="col-md-4"><img src="all team1.jpg" class="img-fluid rounded"></div>
+        <div class="col-md-4"><img src="img/aang gaang.jpg" class="img-fluid rounded"></div>
+        <div class="col-md-4"><img src="img/all team2.jpg" class="img-fluid rounded"></div> 
+        <div class="col-md-4"><img src="img/all team1.jpg" class="img-fluid rounded"></div>
       </div>
     </div>
   </section>
